@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Community Science Museum: List of our scheduled events at the museum. Plan your visit. " />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/c42e915e6a.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Roboto&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/events.css" />
+        <link rel="stylesheet" href="styles/media.css" />
+        <title>Events - Community Science Museum</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div class="main__content">
+                <h1>Events</h1>
+                <h2>Upcoming Events</h2>
+                <div class="main_newevents"></div>
+                <h2>Recently past events</h2>
+                <div class="main_pastevents"></div>
+            </div>
+        </main>
+        <div class="searchgamecontainerbottom">
+            <img src="images/teacher-2816112_small.png" class="ani" title="Image of Eve" alt="Image of Eve" aria-label="Find Eve" />
+            <p class="gametext">Can you find Eve on one of our web pages? Find her and claim your reward.</p>
+            <div class="typer">Where is Eve?</div>
+        </div>
+        <div class="seat_modal">
+            <div class="reserve_form">
+                <form action="" method="get">
+                    <div>
+                        <label for="seatnumbers">Seats:</label>
+                        <!-- <input type="number" name="seatnumbers" id="seatnumbers" /> -->
+                        <select name="seatnumbers" id="seatnumbers">
+                            <option value="1" id="option1">1</option>
+                            <option value="2" id="option2">2</option>
+                            <option value="3" id="option3">3</option>
+                            <option value="4" id="option4">4</option>
+                            <option value="5" id="option5">5</option>
+                        </select>
+                        <i class="requirement">Email is required to reserve.</i>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <button class="cta reserve">Reserve</button>
+                    <button class="cta back grey">Go Back</button>
+                    <div class="reservation_text_wrapper">
+                        <p class="reservation_confirmed">Your reservation has been confirmed.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer></footer>
+        <script src="js/common.js"></script>
+        <script src="js/eventsData.js"></script>
+        <script src="js/events.js"></script>
+    </body>
+</html>

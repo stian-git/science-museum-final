@@ -1,0 +1,9 @@
+.getinvolved_imagecontainer {
+    background: url(../images/genoa-956405_1920_cropped.jpg);
+    background-size: cover;
+    background-position: center;
+    /* height: 28vh; */
+    height: 270px;
+    border: 2px solid black;
+    margin: 4em 0 1em 0;
+}

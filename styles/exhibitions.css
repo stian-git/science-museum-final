@@ -1,0 +1,36 @@
+h2 {
+    margin-top: 0em;
+    text-align: center;
+}
+
+.exhibition {
+    display: flex;
+    margin-top: 6em;
+}
+
+.exhibition img {
+    max-height: 290px;
+    align-self: center;
+    border: 1px solid black;
+    margin-bottom: 3em;
+}
+
+.exhibition:nth-of-type(2n) {
+    background: var(--color-boxColors, #feebda);
+    flex-direction: column;
+}
+
+.exhibition:nth-of-type(2n) div {
+    margin: 1em;
+}
+
+.exhibition:nth-of-type(2n) img {
+    margin: 1em;
+}
+
+.exhibition:nth-of-type(2n -1) {
+    flex-direction: column-reverse;
+}
+.cta_container {
+    margin-top: 150px;
+}

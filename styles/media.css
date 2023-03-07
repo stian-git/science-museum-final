@@ -1,0 +1,141 @@
+@media only screen and (min-width: 500px) {
+    h1 {
+        font-size: 2em;
+    }
+    .floatimage {
+        margin-top: 2em;
+        float: right;
+    }
+    .searchgamecontainerbottom {
+        width: 23em;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    h1 {
+        text-align: left;
+    }
+    .fa-bars {
+        display: none;
+    }
+    .logo {
+        height: 80px;
+    }
+
+    li {
+        display: block;
+        float: left;
+    }
+
+    header {
+        height: 310px;
+    }
+    .some {
+        margin-right: 2rem;
+    }
+
+    footer {
+        display: flex;
+        align-self: flex-end;
+        justify-content: space-between;
+    }
+
+    footer div {
+        margin: 0px 10px;
+    }
+    footer div:nth-child(2) {
+        text-align: center;
+    }
+    nav {
+        width: unset;
+    }
+
+    .nav_icon {
+        display: none;
+    }
+    /* Events */
+    /* .eventcontainer img {
+        height: 180px;
+        width: 280px;
+    } */
+    .eventcontainer img {
+        height: 150px;
+        min-width: 300px;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+    .eventcontent {
+        display: flex;
+    }
+    .eventcontent p {
+        margin-left: 1em;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .main__content {
+        max-width: 700px;
+    }
+    .nav_icon {
+        display: inline;
+    }
+
+    /* Events */
+
+    .wrapper {
+        justify-content: space-between;
+    }
+    .wrapper div {
+        flex-direction: column;
+    }
+
+    .eventcontainer p.cta {
+        align-self: center;
+    }
+    .eventcontainer div p {
+        /* margin-left: 1em; */
+        margin-top: 0;
+    }
+    .eventcontainer img {
+        min-width: 360px;
+    }
+    /* Exhibitions */
+    .exhibition {
+        display: flex;
+    }
+    .exhibition img {
+        align-self: center;
+        margin-bottom: 0px;
+    }
+    .exhibition:nth-of-type(2n -1) {
+        flex-direction: row;
+    }
+    .exhibition:nth-of-type(2n) {
+        flex-direction: row;
+    }
+
+    .exhibition:nth-of-type(2n -1) img {
+        margin-left: 1em;
+    }
+}
+
+@media only screen and (min-width: 1046px) {
+    .topline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .somelogos {
+        height: 30px;
+    }
+    .searchgamecontainer {
+        display: inline-flex;
+        align-items: center;
+        width: 23em;
+    }
+    .searchgamecontainerbottom {
+        display: none;
+    }
+}
